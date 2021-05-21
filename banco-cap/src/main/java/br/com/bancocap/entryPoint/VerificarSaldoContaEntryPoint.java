@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/conta")
+@CrossOrigin(origins = "http://localhost:4200")
 public class VerificarSaldoContaEntryPoint {
 
     private VerificarSaladoContaUseCase verificarSaladoContaUseCase;
